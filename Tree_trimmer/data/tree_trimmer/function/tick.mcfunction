@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item,tag=!item_handled] run function tree_trimmer:item_handle
