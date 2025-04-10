@@ -45,4 +45,4 @@ scoreboard objectives add total_tree_count dummy
 
 scoreboard players set 0 reg_1 0
 
-tellraw @a {"text":"Tree trimmer 1.21.5-0 Loaded","bold":true,"color":"gold"}
+tellraw @a {"text":"Tree trimmer 1.21.5-1 Loaded","bold":true,"color":"gold"}
