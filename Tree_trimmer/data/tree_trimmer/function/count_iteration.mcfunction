@@ -43,6 +43,13 @@ execute if block ~ ~ ~ minecraft:stripped_pale_oak_wood run scoreboard players a
 
 summon minecraft:armor_stand ~ ~ ~ {Tags:["tree_blocked"],NoGravity:1b,Marker:1b,Invisible:1b,Silent:1b}
 
+execute unless entity @s[tag=reached_leaves] positioned ~1 ~ ~ if block ~ ~ ~ #leaves run tag @s add reached_leaves
+execute unless entity @s[tag=reached_leaves] positioned ~-1 ~ ~ if block ~ ~ ~ #leaves run tag @s add reached_leaves
+execute unless entity @s[tag=reached_leaves] positioned ~ ~1 ~ if block ~ ~ ~ #leaves run tag @s add reached_leaves
+execute unless entity @s[tag=reached_leaves] positioned ~ ~-1 ~ if block ~ ~ ~ #leaves run tag @s add reached_leaves
+execute unless entity @s[tag=reached_leaves] positioned ~ ~ ~1 if block ~ ~ ~ #leaves run tag @s add reached_leaves
+execute unless entity @s[tag=reached_leaves] positioned ~ ~ ~-1 if block ~ ~ ~ #leaves run tag @s add reached_leaves
+
 execute positioned ~1 ~ ~ unless entity @e[limit=1,sort=nearest,type=minecraft:armor_stand,tag=tree_blocked,distance=..0.5] if block ~ ~ ~ #logs run function tree_trimmer:count_iteration
 execute positioned ~-1 ~ ~ unless entity @e[limit=1,sort=nearest,type=minecraft:armor_stand,tag=tree_blocked,distance=..0.5] if block ~ ~ ~ #logs run function tree_trimmer:count_iteration
 execute positioned ~ ~1 ~ unless entity @e[limit=1,sort=nearest,type=minecraft:armor_stand,tag=tree_blocked,distance=..0.5] if block ~ ~ ~ #logs run function tree_trimmer:count_iteration
