@@ -41,7 +41,7 @@ scoreboard objectives add pale_oak_ws dummy
 
 scoreboard objectives add reg_1 dummy
 scoreboard objectives add tree_count dummy
-scoreboard objectives add total_tree_count dummy
+scoreboard objectives add tree_break dummy
 
 scoreboard players set 0 reg_1 0
 
