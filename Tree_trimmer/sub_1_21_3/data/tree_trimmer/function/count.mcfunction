@@ -9,7 +9,6 @@ scoreboard players set Temp acacia_l 0
 scoreboard players set Temp dark_oak_l 0
 scoreboard players set Temp mangrove_l 0
 scoreboard players set Temp cherry_l 0
-scoreboard players set Temp pale_oak_l 0
 
 scoreboard players set Temp oak_ls 0
 scoreboard players set Temp spruce_ls 0
@@ -19,7 +18,6 @@ scoreboard players set Temp acacia_ls 0
 scoreboard players set Temp dark_oak_ls 0
 scoreboard players set Temp mangrove_ls 0
 scoreboard players set Temp cherry_ls 0
-scoreboard players set Temp pale_oak_ls 0
 
 
 scoreboard players set Temp oak_w 0
@@ -30,7 +28,6 @@ scoreboard players set Temp acacia_w 0
 scoreboard players set Temp dark_oak_w 0
 scoreboard players set Temp mangrove_w 0
 scoreboard players set Temp cherry_w 0
-scoreboard players set Temp pale_oak_w 0
 
 scoreboard players set Temp oak_ws 0
 scoreboard players set Temp spruce_ws 0
@@ -40,7 +37,6 @@ scoreboard players set Temp acacia_ws 0
 scoreboard players set Temp dark_oak_ws 0
 scoreboard players set Temp mangrove_ws 0
 scoreboard players set Temp cherry_ws 0
-scoreboard players set Temp pale_oak_ws 0
 
 scoreboard players set Temp tree_count 0
 
@@ -56,7 +52,6 @@ scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] acacia
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] dark_oak_l = Temp dark_oak_l
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] mangrove_l = Temp mangrove_l
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] cherry_l = Temp cherry_l
-scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] pale_oak_l = Temp pale_oak_l
 
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] oak_ls = Temp oak_ls
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] spruce_ls = Temp spruce_ls
@@ -66,7 +61,6 @@ scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] acacia
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] dark_oak_ls = Temp dark_oak_ls
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] mangrove_ls = Temp mangrove_ls
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] cherry_ls = Temp cherry_ls
-scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] pale_oak_ls = Temp pale_oak_ls
 
 
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] oak_w = Temp oak_w
@@ -77,7 +71,6 @@ scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] acacia
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] dark_oak_w = Temp dark_oak_w
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] mangrove_w = Temp mangrove_w
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] cherry_w = Temp cherry_w
-scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] pale_oak_w = Temp pale_oak_w
 
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] oak_ws = Temp oak_ws
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] spruce_ws = Temp spruce_ws
@@ -87,6 +80,5 @@ scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] acacia
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] dark_oak_ws = Temp dark_oak_ws
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] mangrove_ws = Temp mangrove_ws
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] cherry_ws = Temp cherry_ws
-scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] pale_oak_ws = Temp pale_oak_ws
 
 scoreboard players operation @n[type=minecraft:armor_stand,tag=tree_root] tree_count = Temp tree_count

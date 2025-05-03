@@ -1,6 +1,21 @@
 {
   "pack": {
     "description": "A minecraft tree trimmer datapack by lprogrammer",
-    "pack_format": 71
+    "pack_format": 7,
+    "supported_formats": [
+      7,
+      71
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "sub_1_21_3",
+        "formats": {
+          "max_inclusive": 57,
+          "min_inclusive": 48
+        }
+      }
+    ]
   }
 }
