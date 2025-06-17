@@ -41,4 +41,4 @@ scoreboard objectives add tree_break dummy
 
 scoreboard players set 0 reg_1 0
 
-tellraw @a {"text":"Tree trimmer (1.13.x 1.14.x 1.15.x 1.16.x 1.17.x 1.18.x 1.19.x 1.20.x 1.21.x)-2 Loaded","bold":true,"color":"gold"}
+tellraw @a {"text":"Tree trimmer (1.13.x 1.14.x 1.15.x 1.16.x 1.17.x 1.18.x 1.19.x 1.20.x 1.21.x)-3 Loaded","bold":true,"color":"gold"}
