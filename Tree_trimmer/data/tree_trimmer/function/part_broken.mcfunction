@@ -1,4 +1,6 @@
-execute at @s if block ~ ~-1 ~ #minecraft:dirt run tag @s add valid_tree
+function tree_trimmer:valid_soil
+execute if score Temp reg_1 matches 1 run tag @s add valid_tree
+
 execute at @s unless block ~ ~1 ~ #minecraft:logs run tag @s remove valid_tree
 
 #Place back here to get correct count

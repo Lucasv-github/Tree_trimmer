@@ -1,3 +1,5 @@
+#say drops
+
 $execute unless score 0 reg_1 matches $(oak_l) run summon item ~ ~1 ~ {Item:{id:oak_log,count:$(oak_l)}}
 $execute unless score 0 reg_1 matches $(spruce_l) run summon item ~ ~1 ~ {Item:{id:spruce_log,count:$(spruce_l)}}
 $execute unless score 0 reg_1 matches $(birch_l) run summon item ~ ~1 ~ {Item:{id:birch_log,count:$(birch_l)}}

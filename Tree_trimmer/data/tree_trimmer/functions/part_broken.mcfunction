@@ -1,5 +1,3 @@
-scoreboard players set Temp reg_1 0
-
 function tree_trimmer:valid_soil
 
 execute if score Temp reg_1 matches 1 run tag @s add valid_tree

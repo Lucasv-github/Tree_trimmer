@@ -1,0 +1,39 @@
+scoreboard players set @s oak_l 0
+scoreboard players set @s spruce_l 0
+scoreboard players set @s birch_l 0
+scoreboard players set @s jungle_l 0
+scoreboard players set @s acacia_l 0
+scoreboard players set @s dark_oak_l 0
+scoreboard players set @s mangrove_l 0
+scoreboard players set @s cherry_l 0
+scoreboard players set @s pale_oak_l 0
+
+scoreboard players set @s oak_ls 0
+scoreboard players set @s spruce_ls 0
+scoreboard players set @s birch_ls 0
+scoreboard players set @s jungle_ls 0
+scoreboard players set @s acacia_ls 0
+scoreboard players set @s dark_oak_ls 0
+scoreboard players set @s mangrove_l 0
+scoreboard players set @s cherry_ls 0
+scoreboard players set @s pale_oak_ls 0
+
+scoreboard players set @s oak_w 0
+scoreboard players set @s spruce_w 0
+scoreboard players set @s birch_w 0
+scoreboard players set @s jungle_w 0
+scoreboard players set @s acacia_w 0
+scoreboard players set @s dark_oak_w 0
+scoreboard players set @s mangrove_w 0
+scoreboard players set @s cherry_w 0
+scoreboard players set @s pale_oak_w 0
+
+scoreboard players set @s oak_ws 0
+scoreboard players set @s spruce_ws 0
+scoreboard players set @s birch_ws 0
+scoreboard players set @s jungle_ws 0
+scoreboard players set @s acacia_ws 0
+scoreboard players set @s dark_oak_ws 0
+scoreboard players set @s mangrove_ws 0
+scoreboard players set @s cherry_ws 0
+scoreboard players set @s pale_oak_ws 0
