@@ -4,10 +4,10 @@
     "pack_format": 15,
     "supported_formats": [
       15,
-      101.1
+      121
     ],
     "min_format": 15,
-    "max_format": 101.1
+    "max_format": 121
   },
   "overlays": {
     "entries": [
